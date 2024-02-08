@@ -17,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TypoOutside.unity
     guid: e301fdcc123c8fe41b7fe099c6cb36ad
+  - enabled: 1
+    path: Assets/Scenes/ChurchLibrary.unity
+    guid: 60667060367295145817c0dac288f036
   m_configObjects: {}

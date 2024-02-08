@@ -48,6 +48,8 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {       
+        
+
         if (Input.GetKey(KeyCode.W) && _nearLibrarian)
         {
             GameObject.Find("Canvas").GetComponent<Canvas2>().InteractWithLibrarian();
@@ -78,11 +80,11 @@ public class Player : MonoBehaviour
     
     private void OnCollisionEnter2D(Collision2D collision)
     {    
-        if (collision.gameObject.tag == "floor")
+        /*if (collision.gameObject.tag == "floor")
         {
             groundedPlayer = true;
             Debug.Log("colision");
-        }
+        }*/
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -105,6 +107,11 @@ public class Player : MonoBehaviour
     public void PlayerPositioner()
     {
         gameObject.transform.position = _gameManager.GetNewPosition();
+    }
+
+    public void Grounded()
+    {
+        groundedPlayer = true;
     }
 
 
