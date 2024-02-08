@@ -38,18 +38,17 @@ public class MainCamera : MonoBehaviour
                         Debug.Log("hit");
                         _machine1.GetComponent<Animation>().Play("Machine1");
                         _m1CanBeActivated = false;
-                        _moveEnabled = false;
                     }
                 }
             }
         }
-  
-        if(Input.GetKeyDown(KeyCode.M) && _moveEnabled)
+
+        if (Input.GetKeyDown(KeyCode.M) && _moveEnabled && _m1CanBeActivated == true)
         {
             _machine1Particles.Play();
         }
 
-        if (Input.GetKeyUp(KeyCode.M) || _moveEnabled == false)
+        if (Input.GetKeyUp(KeyCode.M) || _m1CanBeActivated == false)
         {
             _machine1Particles.Stop();
         }
