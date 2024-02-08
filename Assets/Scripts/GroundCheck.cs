@@ -23,7 +23,7 @@ public class GroundCheck : MonoBehaviour
     {
         if (collision.gameObject.tag == "floor")
         {
-            _player.GetComponent<Player>().Grounded();
+            //_player.GetComponent<Player>().StayGrounded();
         }
     }
 
@@ -39,7 +39,7 @@ public class GroundCheck : MonoBehaviour
     {
         if (collision.gameObject.tag == "floor")
         {
-            //_player.GetComponent<Player>().Grounded();
+            _player.GetComponent<Player>().NotGrounded();
         }
     }
 }

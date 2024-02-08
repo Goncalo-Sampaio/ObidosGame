@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3f462f8d6ad283d4c8c7480ee57b7ab1
+guid: b8d0bae724d3f114d95e544bc5c8e01e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 75
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,20 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,186 +119,194 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC_final_jump_0
+      name: Ginja_pickup_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 48
+        width: 68
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cf7d95a79c13894785eb9f982a70bf2
-      internalID: 1032086770
+      spriteID: 4990a61ec04b8dc4690cc8937015ff0a
+      internalID: 617028193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_1
+      name: Ginja_pickup_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 68
         y: 0
-        width: 32
-        height: 48
+        width: 68
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77957a34e3d5b214aa20d8b5ebad1ea1
-      internalID: -753827487
+      spriteID: 37046920bfdc11647ae2cfda9990588f
+      internalID: -203478714
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_2
+      name: Ginja_pickup_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 136
         y: 0
-        width: 32
-        height: 48
+        width: 68
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77cec279d9785204c8d0c975976c2dce
-      internalID: 1297432595
+      spriteID: 567ddbb1b01aea94dab14100602c9d2a
+      internalID: -1549242555
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_3
+      name: Ginja_pickup_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 204
         y: 0
-        width: 32
-        height: 48
+        width: 68
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3647234ddaef26488def1e0988c604a
-      internalID: 1811257154
+      spriteID: fe7c754d87bc12748a3b17878723d315
+      internalID: -444871373
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_4
+      name: Ginja_pickup_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 272
         y: 0
-        width: 32
-        height: 48
+        width: 68
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e92162e293d02b488f9b313917205bd
-      internalID: -1364695030
+      spriteID: a7eb12364b70610468eea30cd7ff4a42
+      internalID: -961321003
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_5
+      name: Ginja_pickup_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 340
         y: 0
-        width: 32
-        height: 48
+        width: 68
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b94f8da137959804abdef03dc41369c4
-      internalID: -1024819582
+      spriteID: fa2f306fbb20ffb4682175aaf8aed109
+      internalID: 330783977
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_6
+      name: Ginja_pickup_6
       rect:
         serializedVersion: 2
-        x: 192
+        x: 408
         y: 0
-        width: 32
-        height: 48
+        width: 68
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eedddec527dc8e49a4b5d678388f79b
-      internalID: 1900014589
+      spriteID: 16f225acd7a86d14393ea0fdf02ae7bd
+      internalID: -1649106456
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_7
+      name: Ginja_pickup_7
       rect:
         serializedVersion: 2
-        x: 224
+        x: 476
         y: 0
-        width: 32
-        height: 48
+        width: 68
+        height: 88
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2fb016770982154d886494cbaecc948
-      internalID: -471873644
+      spriteID: e534b96aafd21b443b1c1e44e71bd7eb
+      internalID: -1115194803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Ginja_pickup_8
+      rect:
+        serializedVersion: 2
+        x: 544
+        y: 0
+        width: 68
+        height: 88
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34cacd919259c1041b6637fdb5b63491
+      internalID: 559118528
       vertices: []
       indices: 
       edges: []
@@ -301,14 +322,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MC_final_jump_0: 1032086770
-      MC_final_jump_1: -753827487
-      MC_final_jump_2: 1297432595
-      MC_final_jump_3: 1811257154
-      MC_final_jump_4: -1364695030
-      MC_final_jump_5: -1024819582
-      MC_final_jump_6: 1900014589
-      MC_final_jump_7: -471873644
+      Ginja_pickup_0: 617028193
+      Ginja_pickup_1: -203478714
+      Ginja_pickup_2: -1549242555
+      Ginja_pickup_3: -444871373
+      Ginja_pickup_4: -961321003
+      Ginja_pickup_5: 330783977
+      Ginja_pickup_6: -1649106456
+      Ginja_pickup_7: -1115194803
+      Ginja_pickup_8: 559118528
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
