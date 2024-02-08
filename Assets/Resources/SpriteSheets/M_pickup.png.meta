@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3f462f8d6ad283d4c8c7480ee57b7ab1
+guid: 5a7bdabc290b19544bea499a8bfced00
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 75
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,20 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,30 +119,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC_final_jump_0
+      name: M_pickup_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 48
+        width: 72
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cf7d95a79c13894785eb9f982a70bf2
-      internalID: 1032086770
+      spriteID: f7b7e76cf7b011248b9a5591b7384c7a
+      internalID: 714655023
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_1
+      name: M_pickup_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 72
         y: 0
-        width: 32
-        height: 48
+        width: 72
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77957a34e3d5b214aa20d8b5ebad1ea1
-      internalID: -753827487
+      spriteID: df4b3972879c71e4eb5aa612e9b06dbe
+      internalID: 1384131433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_2
+      name: M_pickup_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 144
         y: 0
-        width: 32
-        height: 48
+        width: 72
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77cec279d9785204c8d0c975976c2dce
-      internalID: 1297432595
+      spriteID: 1c700b956d09a1b4c991bf5a1441076d
+      internalID: 135744806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_3
+      name: M_pickup_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 216
         y: 0
-        width: 32
-        height: 48
+        width: 72
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3647234ddaef26488def1e0988c604a
-      internalID: 1811257154
+      spriteID: 5d1baab9672a0d94fb3e23f96260503e
+      internalID: 1889620946
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_4
+      name: M_pickup_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 288
         y: 0
-        width: 32
-        height: 48
+        width: 72
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e92162e293d02b488f9b313917205bd
-      internalID: -1364695030
+      spriteID: b2d6caadd6eae3d49903a3db90c3b5e7
+      internalID: 419200238
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_5
+      name: M_pickup_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 360
         y: 0
-        width: 32
-        height: 48
+        width: 72
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b94f8da137959804abdef03dc41369c4
-      internalID: -1024819582
+      spriteID: 6611132639a623b439b5e53cd3c28bae
+      internalID: -1489242305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_6
+      name: M_pickup_6
       rect:
         serializedVersion: 2
-        x: 192
+        x: 432
         y: 0
-        width: 32
-        height: 48
+        width: 72
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,20 +263,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eedddec527dc8e49a4b5d678388f79b
-      internalID: 1900014589
+      spriteID: c3ec582aa1caa9947bf2048a8f232147
+      internalID: -1604859155
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_7
+      name: M_pickup_7
       rect:
         serializedVersion: 2
-        x: 224
+        x: 504
         y: 0
-        width: 32
-        height: 48
+        width: 72
+        height: 50
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -284,8 +284,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d2fb016770982154d886494cbaecc948
-      internalID: -471873644
+      spriteID: 12e1329b626bcc64bbe38587f47c3d33
+      internalID: -768950677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_pickup_8
+      rect:
+        serializedVersion: 2
+        x: 576
+        y: 0
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fad1e6b1fdbd24b91ddf93734e413b
+      internalID: 604294879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: M_pickup_9
+      rect:
+        serializedVersion: 2
+        x: 648
+        y: 0
+        width: 72
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fa914e65e84c2409cea6528e00d75d
+      internalID: -559125542
       vertices: []
       indices: 
       edges: []
@@ -301,14 +343,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MC_final_jump_0: 1032086770
-      MC_final_jump_1: -753827487
-      MC_final_jump_2: 1297432595
-      MC_final_jump_3: 1811257154
-      MC_final_jump_4: -1364695030
-      MC_final_jump_5: -1024819582
-      MC_final_jump_6: 1900014589
-      MC_final_jump_7: -471873644
+      M_pickup_0: 714655023
+      M_pickup_1: 1384131433
+      M_pickup_2: 135744806
+      M_pickup_3: 1889620946
+      M_pickup_4: 419200238
+      M_pickup_5: -1489242305
+      M_pickup_6: -1604859155
+      M_pickup_7: -768950677
+      M_pickup_8: 604294879
+      M_pickup_9: -559125542
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

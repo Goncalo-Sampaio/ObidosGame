@@ -7,8 +7,6 @@ public class Canvas1 : MonoBehaviour
 {
     [SerializeField]
     private Animation _machine1;
-    [SerializeField]
-    private Button _machine1Button;
     private bool _machine1Used = false;
     private GameManager _gameManager;
     private bool _moveEnable = false;
@@ -23,14 +21,7 @@ public class Canvas1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.M) && _moveEnable && _machine1Used == false)
-        {
-            _machine1Button.interactable = true;
-        }
-        else
-        {
-            _machine1Button.interactable = false;
-        }
+
     }
 
 
@@ -39,6 +30,5 @@ public class Canvas1 : MonoBehaviour
     {
         _machine1.Play("Machine1");
         _machine1Used = true;
-        _machine1Button.interactable = false;
     }
 }

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 3f462f8d6ad283d4c8c7480ee57b7ab1
+guid: d651a86270b69a74888d7f4a89997423
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -48,7 +48,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 32
+  spritePixelsToUnits: 75
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -72,7 +72,20 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -106,30 +119,17 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: MC_final_jump_0
+      name: Luis_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 32
-        height: 48
+        width: 214
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -137,20 +137,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6cf7d95a79c13894785eb9f982a70bf2
-      internalID: 1032086770
+      spriteID: e3e7173470e10bb44bf333a2da759a86
+      internalID: 2115151592
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_1
+      name: Luis_1
       rect:
         serializedVersion: 2
-        x: 32
+        x: 214
         y: 0
-        width: 32
-        height: 48
+        width: 214
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77957a34e3d5b214aa20d8b5ebad1ea1
-      internalID: -753827487
+      spriteID: e142bfef47e77d2428827990a79cbac0
+      internalID: 1623223378
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_2
+      name: Luis_2
       rect:
         serializedVersion: 2
-        x: 64
+        x: 428
         y: 0
-        width: 32
-        height: 48
+        width: 214
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -179,20 +179,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 77cec279d9785204c8d0c975976c2dce
-      internalID: 1297432595
+      spriteID: f8e534274055725488022df83c4a96d0
+      internalID: -873913420
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_3
+      name: Luis_3
       rect:
         serializedVersion: 2
-        x: 96
+        x: 642
         y: 0
-        width: 32
-        height: 48
+        width: 214
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -200,20 +200,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3647234ddaef26488def1e0988c604a
-      internalID: 1811257154
+      spriteID: 2d32cf0b5b00a674e98efdbfda6b72f6
+      internalID: 387684356
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_4
+      name: Luis_4
       rect:
         serializedVersion: 2
-        x: 128
+        x: 856
         y: 0
-        width: 32
-        height: 48
+        width: 214
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -221,20 +221,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5e92162e293d02b488f9b313917205bd
-      internalID: -1364695030
+      spriteID: 7ff8c514525a50e4abddc4af5d2fec1b
+      internalID: 1844064809
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_5
+      name: Luis_5
       rect:
         serializedVersion: 2
-        x: 160
+        x: 1070
         y: 0
-        width: 32
-        height: 48
+        width: 214
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -242,20 +242,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b94f8da137959804abdef03dc41369c4
-      internalID: -1024819582
+      spriteID: 262d6a066f65bdd4b8c3155688f34676
+      internalID: -518582493
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: MC_final_jump_6
+      name: Luis_6
       rect:
         serializedVersion: 2
-        x: 192
+        x: 1284
         y: 0
-        width: 32
-        height: 48
+        width: 214
+        height: 114
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -263,29 +263,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9eedddec527dc8e49a4b5d678388f79b
-      internalID: 1900014589
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: MC_final_jump_7
-      rect:
-        serializedVersion: 2
-        x: 224
-        y: 0
-        width: 32
-        height: 48
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d2fb016770982154d886494cbaecc948
-      internalID: -471873644
+      spriteID: cd502a3983875574aa16d55b3f17882c
+      internalID: -724393947
       vertices: []
       indices: 
       edges: []
@@ -301,14 +280,13 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      MC_final_jump_0: 1032086770
-      MC_final_jump_1: -753827487
-      MC_final_jump_2: 1297432595
-      MC_final_jump_3: 1811257154
-      MC_final_jump_4: -1364695030
-      MC_final_jump_5: -1024819582
-      MC_final_jump_6: 1900014589
-      MC_final_jump_7: -471873644
+      Luis_0: 2115151592
+      Luis_1: 1623223378
+      Luis_2: -873913420
+      Luis_3: 387684356
+      Luis_4: 1844064809
+      Luis_5: -518582493
+      Luis_6: -724393947
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

@@ -31,7 +31,15 @@ public class Items : MonoBehaviour
         if (collision.gameObject.tag == "Player")
         {
             _gameManager.Collect(_itemId);
-            Destroy(gameObject);
+
+            StartCoroutine(AnimationCoroutine());
         }
+    }
+
+    IEnumerator AnimationCoroutine()
+    {
+        GetComponent<Animator>().SetTrigger("Picked");
+        yield return new WaitForSeconds(0.83f);
+        Destroy(gameObject);
     }
 }
