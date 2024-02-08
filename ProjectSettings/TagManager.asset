@@ -10,6 +10,7 @@ TagManager:
   - Librarian
   - GameManager
   - CenterDoor
+  - area
   layers:
   - Default
   - TransparentFX
