@@ -14,4 +14,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 2a8f07290368b3747abde0d8be0bf1c8
+  - enabled: 1
+    path: Assets/Scenes/TypoOutside.unity
+    guid: e301fdcc123c8fe41b7fe099c6cb36ad
   m_configObjects: {}

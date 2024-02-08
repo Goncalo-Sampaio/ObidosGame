@@ -22,7 +22,16 @@ public class Doors : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && gameObject.transform.tag != "CenterDoor")
+        {
+            _gameManager.SetNewPosition(_right, _top, _center);
+            SceneManager.LoadScene(_buildIndexToLoad);
+        }
+    }
+
+    private void OnTriggerStay2D(Collider2D collision)
+    {
+        if (collision.gameObject.tag == "Player" && Input.GetKey(KeyCode.W))
         {
             _gameManager.SetNewPosition(_right, _top, _center);
             SceneManager.LoadScene(_buildIndexToLoad);
